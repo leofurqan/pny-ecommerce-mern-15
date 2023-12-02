@@ -18,6 +18,10 @@ const userSchema = mongoose.Schema({
         min: 8
     },
 
+    otp: {
+        type: String
+    },
+
     isActive: {
         type: Boolean,
         default: false
